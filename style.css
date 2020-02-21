@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  margin: 0;
+  font: 25px sans-serif;
+  user-select: none;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background: #f22;
+  border-radius: 75px;
+  cursor: pointer;
+}
