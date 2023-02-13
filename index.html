@@ -23,9 +23,18 @@
       <span class="d-flex center-content">Click me</span>
     </div>
 
-    <audio src="sounds/applause-solo.mp3" hidden></audio>
-    <audio src="sounds/applause-bunch.mp3" hidden></audio>
-    <audio src="sounds/applause-crowd.mp3" hidden></audio>
+    <audio hidden>
+      <source src="sounds/applause-solo.ogg" type="audio/ogg">
+      <source src="sounds/applause-solo.mp3" type="audio/mpeg">
+    </audio>
+    <audio hidden>
+      <source src="sounds/applause-bunch.ogg" type="audio/ogg">
+      <source src="sounds/applause-bunch.mp3" type="audio/mpeg">
+    </audio>
+    <audio hidden>
+      <source src="sounds/applause-crowd.ogg" type="audio/ogg">
+      <source src="sounds/applause-crowd.mp3" type="audio/mpeg">
+    </audio>
 
     <script src="script.js"></script>
   </body>
