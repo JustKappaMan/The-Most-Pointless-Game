@@ -7,10 +7,12 @@
     <title>The Most Pointless Game</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <span>Score: 0</span>
+  <body class="d-flex flex-column center-content">
+    <span id="scoreboard" class="m-bottom-25">Score: 0</span>
     
-    <div>Click</div>
+    <div id="button" class="d-flex center-content clickable">
+      <span class="d-flex center-content">Click me</span>
+    </div>
 
     <audio src="sounds/applause-solo.mp3" hidden></audio>
     <audio src="sounds/applause-bunch.mp3" hidden></audio>

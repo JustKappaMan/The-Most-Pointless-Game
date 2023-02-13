@@ -1,33 +1,45 @@
-html {
+html, body {
   height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: inherit;
   margin: 0;
   font: 25px sans-serif;
   user-select: none;
 }
 
-span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 150px;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.clickable {
+  background: #A30036;
   height: 150px;
   width: 150px;
-  background: #f22;
   border-radius: 75px;
+  outline-offset: 5px;
   cursor: pointer;
+}
+
+.clickable > span {
+  background: #F0003C;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  outline-offset: 5px;
+  transform: translateY(-6px);
+}
+
+.clickable:active > span {
+  transform: translateY(-2px);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.m-bottom-25 {
+  margin-bottom: 25px;
 }

@@ -1,6 +1,6 @@
 (() => {
-  const scoreboard = document.querySelector('span'),
-        button = document.querySelector('div'),
+  const scoreboard = document.querySelector('#scoreboard'),
+        button = document.querySelector('#button'),
         sounds = document.querySelectorAll('audio');
 
   let score = 0;
