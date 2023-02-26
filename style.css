@@ -1,45 +1,52 @@
-html, body {
+html {
   height: 100%;
+}
+
+body {
+  height: inherit;
   margin: 0;
   font: 25px sans-serif;
   user-select: none;
 }
 
-.clickable {
-  background: #A30036;
+body {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  user-select: none;
+}
+
+#scoreboard {
+  margin-bottom: 25px;
+}
+
+#button {
   height: 150px;
   width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 75px;
   outline-offset: 5px;
+  background: #A30036;
   cursor: pointer;
 }
 
-.clickable > span {
-  background: #F0003C;
+#button > span {
   height: 150px;
   width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 75px;
   outline-offset: 5px;
   transform: translateY(-6px);
+  background: #F0003C;
 }
 
-.clickable:active > span {
+#button:active > span {
   transform: translateY(-2px);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.center-content {
-  justify-content: center;
-  align-items: center;
-}
-
-.m-bottom-25 {
-  margin-bottom: 25px;
 }
