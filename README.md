@@ -3,7 +3,10 @@
 ![Checked with ESLint](https://img.shields.io/badge/ESLint-checked-blueviolet)
 
 The most pointless clicker game ever made.
+
 ## Credits
-Favicons are provided by [chahir](https://www.flaticon.com/authors/chahir).
+* [JetBrains](https://www.jetbrains.com) for [Open Source Development license](https://www.jetbrains.com/community/opensource)
+* [chahir](https://www.flaticon.com/authors/chahir) for the favicons
+
 ## License
 This project is licensed under the MIT License.
